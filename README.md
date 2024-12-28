@@ -1,85 +1,44 @@
-# Nuxt 3 Minimal Starter
+This project is a Customer Relationship Management system (CRM).
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Features  
+Homepage: Displays recent projects, comments, and clients in a concise and organized manner.
+Kanban Board: Visualizes projects according to their status, allowing users to easily track progress.
+Project Details: Provides detailed information about each project and enables users to leave comments.
+Client Management: Allows adding new clients, editing existing ones, and deleting them when necessary.
 
-## Setup
+## Technologies:
 
-Make sure to install the dependencies:
+### Frontend:
+Nuxt.js  
+Vue 3  
+Composition API  
+TypeScript  
+Pinia  
+Tailwind CSS  
 
-```bash
-# npm
+### Backend:
+Appwrite
+
+## To get started with this project, follow these steps:
+
+### Clone the repository:
+git clone https://github.com/your-repository-url.git
+cd your-project-folder
+
+### Install dependencies:
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+### Start the development server:
 npm run dev
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Open your browser and navigate to http://localhost:3000 to view the application.
 
 
-.env variables example:
-APPWRITE_ENDPOINT=
-APPWRITE_PROJECT_ID =
-DB_ID =
-COLLECTION_DEALS = 
-COLLECTION_CUSTOMERS =
-COLLECTION_COMMENTS =
-STORAGE_ID =
+## .env variables example:
+APPWRITE_ENDPOINT=  
+APPWRITE_PROJECT_ID =  
+DB_ID =  
+COLLECTION_DEALS =  
+COLLECTION_CUSTOMERS =  
+COLLECTION_COMMENTS =  
+STORAGE_ID =  
