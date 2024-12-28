@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: #020617;
+    --foreground: #0f172a;
+
+    --border: #1e293b;
+    --input-border: #334155;
+    --sidebar: #0f172a;
+
+    --primary: #22d3ee;
+
+    --default-text: #cbd5e1;
+    --main-title: #f8fafc;
+    --secondary-title: #f1f5f9;
+    --date-text: #94a3b8;
+    --primary-text: #06b6d4;
+
+    --secondary: #212d3f;
+
+    --ring: #202937;
+
+    --radius: 0.5rem;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground text-base;
+    font-family: 'Lato', sans-serif;
+    color: white;
+  }
+  h1 {
+    @apply text-2xl font-extrabold mb-10;
+  }
+  h2 {
+    @apply text-xl font-bold;
+  }
+  h3 {
+    @apply text-lg font-semibold;
+  }
+  .default-text {
+    @apply text-[--default-text] font-medium text-sm;
+  }
+  .date-text {
+    @apply text-[--date-text] text-sm italic;
+  }
+}
